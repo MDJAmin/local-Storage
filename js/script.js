@@ -14,7 +14,7 @@ function display() {
 clearBtn.addEventListener("click", clrear);
 function clrear() {
   localStorage.clear("value");
-  resultEL.innerHTML = ""
-  inputEl.value = ""
+  resultEL.innerHTML = "";
+  inputEl.value = "";
 }
 // localStorage.removeItem("value");
